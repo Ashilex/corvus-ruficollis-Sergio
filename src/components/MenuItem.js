@@ -18,7 +18,9 @@ export const MenuItem = ({
   total,
   updatePrice = () => {},
   updateQuantity = () => {},
-  remove = () => {}
+  remove = () => {
+
+  }
 }) => {
   return (
     <Card marginTop="space40">
